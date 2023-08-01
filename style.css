@@ -1,0 +1,74 @@
+html, body{
+    margin: 0px;  
+    overflow: hidden;
+}
+
+.background{
+     width: 100vw; 
+     height: 100% ; 
+    position: absolute;
+    z-index: -1;
+     }
+
+   .background > img{
+   width:100%; 
+  height: 100%;
+   }
+
+   .contenitore{
+    background: rgba(0,0,0,60%); 
+    width: 60%;
+    height: 90vh;
+    margin: 20px auto;
+    border-radius: 15px;
+   }
+  
+   header {
+    color: yellowgreen;
+    text-align: center;
+    padding-top: 50px;
+   }
+
+   nav{
+    height: 20px;
+    background-color: yellowgreen;
+    margin:0 10%;
+    text-align: center;
+    padding: 10px;
+   }
+   
+   main{
+    margin: 0px 10%;
+    color: white;
+   }
+
+   .monopattini > div > p{
+    font-size: 14px;
+    margin: 0px;
+   }
+
+   .monopattini > div> h3{
+    display: inline-block;
+    margin-bottom: 0px;
+   }
+
+   #UserGino22{
+    background: rgb(112, 148, 46);
+    height: 20px;
+    width: 250px;
+    border-radius: 5px;
+   }
+
+   #UserMike24{
+    background: rgb(209, 209, 33);
+    height: 20px;
+    width: 400px;
+    border-radius: 5px;
+   }
+
+   #UserFede154{
+    background: rgb(202, 62, 62);
+    height: 20px;
+    width: 100px;
+    border-radius: 5px;
+   }
